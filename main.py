@@ -110,6 +110,7 @@ async def on_message(message):
     
     
 keep_alive()
+# You can generate a TOKEN ny going into the discord developer portal
 client.run(os.getenv('TOKEN'))
 
 
